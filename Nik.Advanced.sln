@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nik.Advanced.Business.Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nik.Advanced.Framework", "Nik.Advanced.Framework\Nik.Advanced.Framework.csproj", "{8793BC12-0E29-4FD9-8EEC-21A02791E88B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nik.Advanced.Mvc", "Nik.Advanced.Mvc\Nik.Advanced.Mvc.csproj", "{989CABE5-E4F5-486E-831B-848EEE529104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8793BC12-0E29-4FD9-8EEC-21A02791E88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8793BC12-0E29-4FD9-8EEC-21A02791E88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8793BC12-0E29-4FD9-8EEC-21A02791E88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989CABE5-E4F5-486E-831B-848EEE529104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989CABE5-E4F5-486E-831B-848EEE529104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989CABE5-E4F5-486E-831B-848EEE529104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989CABE5-E4F5-486E-831B-848EEE529104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +61,6 @@ Global
 		{3DB2BCBB-C123-4E8D-B5B2-4064667192B0} = {EB583E2D-BAF3-404A-8579-28BECD43BC54}
 		{1D853B78-B5C2-4432-A5B5-A852C06FA459} = {EB583E2D-BAF3-404A-8579-28BECD43BC54}
 		{8793BC12-0E29-4FD9-8EEC-21A02791E88B} = {73C2C352-89C2-4B3E-B2EA-67949CA943BB}
+		{989CABE5-E4F5-486E-831B-848EEE529104} = {EF1D7DA0-0C57-42BC-A851-736F7A9DC45C}
 	EndGlobalSection
 EndGlobal
