@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Nik.Advanced")]
+[assembly: AssemblyTitle("Nik.Advanced.Web.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Nik.Advanced")]
+[assembly: AssemblyProduct("Nik.Advanced.Web.Core")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("57fc98c8-db1a-4417-b547-db6fe8c29ba8")]
+[assembly: Guid("d46959f3-2476-4f99-bf13-2a54cef27f4e")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

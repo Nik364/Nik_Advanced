@@ -5,7 +5,7 @@
   </configSections>
   <unity>
     <containers>
-      <container name="NikDbContainer">
+      <container name="DefaultContainer">
         <register type="System.Data.Entity.DbContext,EntityFramework" mapTo="Nik.Advanced.Model.Context.NikDbContext,Nik.Advanced.Model"></register>
         <register type="Nik.Advanced.Business.Interface.IBaseService,Nik.Advanced.Business.Interface" mapTo="Nik.Advanced.Business.Service.BaseService,Nik.Advanced.Business.Service"></register>
         <register type="Nik.Advanced.Business.Interface.ICompanyService,Nik.Advanced.Business.Interface" mapTo="Nik.Advanced.Business.Service.CompanyService,Nik.Advanced.Business.Service"></register>

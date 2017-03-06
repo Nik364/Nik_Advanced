@@ -5,16 +5,16 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 
-namespace Nik.Advanced.Common.Unity
+namespace Nik.Advanced.Web.Core.IOC
 {
     /// <summary>
     /// Unity容器工厂
     /// </summary>
-    public class UnityContainerFactory
+    public class ContainerFactory
     {
         static Dictionary<string, IUnityContainer> unityContainerCache = new Dictionary<string, IUnityContainer>();
 
-        public static IUnityContainer CreateContainer(string name)
+        public static IUnityContainer CreateContainer(string name= "DefaultContainer")
         {
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"CfgFiles\Unity.Config.xml");
             return CreateContainer(path, name);

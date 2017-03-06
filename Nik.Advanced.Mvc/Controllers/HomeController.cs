@@ -10,6 +10,7 @@ namespace Nik.Advanced.Mvc.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Tag = 10;
             return View();
         }
 
