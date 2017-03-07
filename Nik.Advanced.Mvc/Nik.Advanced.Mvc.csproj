@@ -289,6 +289,14 @@
       <Project>{54e2e239-1810-4d64-b035-fe87b85aca51}</Project>
       <Name>Nik.Advanced.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nik.Advanced.Remote.Interface\Nik.Advanced.Remote.Interface.csproj">
+      <Project>{d33729cd-f49a-4c11-975d-35c9175f35c9}</Project>
+      <Name>Nik.Advanced.Remote.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nik.Advanced.Remote.Model\Nik.Advanced.Remote.Model.csproj">
+      <Project>{9cf18e66-e6bd-4283-b496-4115b4855866}</Project>
+      <Name>Nik.Advanced.Remote.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nik.Advanced.Web.Core\Nik.Advanced.Web.Core.csproj">
       <Project>{d46959f3-2476-4f99-bf13-2a54cef27f4e}</Project>
       <Name>Nik.Advanced.Web.Core</Name>

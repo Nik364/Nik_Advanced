@@ -25,7 +25,12 @@ namespace Nik.Advanced.Web.Core.IOC
                 return null;
             }
 
-            //注入控制器
+            /*
+             * 注入控制器
+             * 
+             * Resolve传入具体的实例，unity不需要动态反射实例化对象，因此不需要提前配置对象关系映射。
+             * 主要作用将controllerType.GetType()类型中的对象注入外部资源
+             */
             return (IController)this.UnityContniner.Resolve(controllerType);
         }
 
