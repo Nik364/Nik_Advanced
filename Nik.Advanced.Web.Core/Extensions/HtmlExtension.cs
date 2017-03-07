@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Web.Mvc;
 
 namespace Nik.Advanced.Web.Core.Extensions
 {
-    public class HtmlExtension
+    public static class HtmlExtension
     {
-        //public static MvcHtmlString
+        public static MvcHtmlString Br(this HtmlHelper helper)
+        {
+            var builder = new TagBuilder("br");
+            return MvcHtmlString.Create(builder.ToString(TagRenderMode.SelfClosing));
+        }
     }
 }

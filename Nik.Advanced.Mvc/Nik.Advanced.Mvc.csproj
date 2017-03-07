@@ -276,6 +276,24 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nik.Advanced.Business.Interface\Nik.Advanced.Business.Interface.csproj">
+      <Project>{1d853b78-b5c2-4432-a5b5-a852c06fa459}</Project>
+      <Name>Nik.Advanced.Business.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nik.Advanced.Framework\Nik.Advanced.Framework.csproj">
+      <Project>{8793bc12-0e29-4fd9-8eec-21a02791e88b}</Project>
+      <Name>Nik.Advanced.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nik.Advanced.Model\Nik.Advanced.Model.csproj">
+      <Project>{54e2e239-1810-4d64-b035-fe87b85aca51}</Project>
+      <Name>Nik.Advanced.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nik.Advanced.Web.Core\Nik.Advanced.Web.Core.csproj">
+      <Project>{d46959f3-2476-4f99-bf13-2a54cef27f4e}</Project>
+      <Name>Nik.Advanced.Web.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
